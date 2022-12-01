@@ -1,0 +1,51 @@
+[
+    {
+        "members": [
+            {
+                "name": "max",
+                "offset": 0,
+                "type": "felt"
+            },
+            {
+                "name": "min",
+                "offset": 1,
+                "type": "felt"
+            }
+        ],
+        "name": "Condition",
+        "size": 2,
+        "type": "struct"
+    },
+    {
+        "inputs": [
+            {
+                "name": "id",
+                "type": "felt"
+            },
+            {
+                "name": "cond",
+                "type": "Condition"
+            }
+        ],
+        "name": "setInfo",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "id",
+                "type": "felt"
+            }
+        ],
+        "name": "getInfo",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "Condition"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
