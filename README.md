@@ -29,4 +29,3 @@ Result:
 
 <img width="1122" alt="Post Proof" src="https://user-images.githubusercontent.com/56735482/204991919-8a0c40ea-443e-47ab-a781-bdeaf9d2fb8a.png">
 
-Contributors:
